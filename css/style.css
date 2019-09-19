@@ -13,20 +13,108 @@ a {
 h1 {
   font-weight: 600;
   font-size: 80px;
+  letter-spacing: -2.5px;
   color: #192b59;
+  line-height: 1.1;
+  max-width: 600px;
+  margin-bottom: 65px;
+}
+
+.title-h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #192b59;
+}
+
+.title-h2 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  color: #1085e4;
+  margin-bottom: 50px;
+}
+.page-stat .title-h2{
+  text-align: center;
+}
+
+.wrap {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .nav {
   font-size: 12px;
-  color: #6e7ea9;
   text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  /*  flex*/
+  display: flex;
+}
+
+.nav > li {
+  padding: 0 15px;
+}
+
+.nav > li > a {
+  color: #6e7ea9;
+}
+
+.btn-primary {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #1085e4;
+  border: 1px solid #1085e4;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
+.btn-primary:hover {
+  color: #1085e4;
+  background-color: #fff;
+}
+
+.btn-secondary {
+  color: #7e8bae;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #cbdbe8;
+  border: 1px solid #cbdbe8;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
 }
 
 .btn-free {
-  color: #fff;
   font-weight: 400;
-  background-color: #1085e4;
+  padding: 20px 50px;
+  letter-spacing: 1.7px;
 }
+
+.btn-info {
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  color: #8085b1;
+  background-color: transparent;
+  border: 1px solid #dce1e5;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
+.btn-group a + a {
+  margin-left: 15px;
+}
+
 
 .grid h2 {
   font-size: 40px;
@@ -50,4 +138,27 @@ h1 {
   font-size: 14px;
   font-weight: 600;
   color: #1085e4;
+}
+
+.list-stat {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.list-stat > li {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1085e4;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+}
+
+.list-stat > li > span {
+  display: block;
+  font-size: 60px;
+  color: #bacbdc;
+  margin-bottom: 23px;
+  letter-spacing: 0;
 }
